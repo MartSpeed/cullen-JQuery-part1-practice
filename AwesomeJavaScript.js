@@ -16,4 +16,7 @@ function onReady() {
 
   const h1Text = $('h1').text();
   console.log('h1Text is ', h1Text);
+
+  const louderText = h1Text.toUpperCase() + '!!!!';
+  $('h1').text(louderText);
 }

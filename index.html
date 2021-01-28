@@ -16,21 +16,28 @@
       <li>Child 2</li>
       <li class="the-best">Child 3</li>
     </ul>
-    <!-- always use a label with tihe id of to match the input for further setup -->
-    <label for="brand">Harmonica Brand</label>
-    <input type="text" id="brand" placeholder="harmonica brand" />
+    <!-- the form tag comes with some accessibility option that let you press enter to submit a button rather than clicking on it -->
+    <form>
+      <!-- always use a label with tihe id of to match the input for further setup -->
+      <label for="brand">Harmonica Brand</label>
+      <input type="text" id="brand" placeholder="harmonica brand" />
 
-    <!-- this is a dropw down creator -->
-    <select name="" id="">
-      <option value="">Special 20</option>
-      <option value="">Rocket</option>
-      <option value="">Marine Band</option>
-    </select>
+      <!-- this is a dropw down creator -->
+      <select name="" id="">
+        <option value="">Special 20</option>
+        <option value="">Rocket</option>
+        <option value="">Marine Band</option>
+      </select>
 
-    <!-- radial elements -->
-    <input type="radio" id="male" name="mode" value="male" />
-    <label for="male">Major</label>
-    <input type="radio" id="female" name="mode" value="female" />
-    <label for="female">Minor</label>
+      <!-- radial elements -->
+      <input type="radio" id="male" name="mode" value="male" />
+      <label for="male">Major</label>
+      <input type="radio" id="female" name="mode" value="female" />
+      <label for="female">Minor</label>
+
+      <input id="submitButton" type="submit" value="Submit!" />
+
+      <ul id="harmonica"></ul>
+    </form>
   </body>
 </html>
